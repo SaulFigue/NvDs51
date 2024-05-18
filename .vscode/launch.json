@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Run DeepStream Test5 App",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/opt/nvidia/deepstream/deepstream-5.1/sources/apps/cc-lc/deepstream_test5/deepstream-test5-app",
+            "args": [
+                "-c",
+                "configs/stadyn.txt"
+            ],
+            "stopAtEntry": false,
+            "cwd": "/opt/nvidia/deepstream/deepstream-5.1/sources/apps/cc-lc/deepstream_test5",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "make install"
+        }
+    ]
+}

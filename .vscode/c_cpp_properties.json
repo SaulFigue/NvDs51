@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include",
+                "/usr/include/gstreamer-1.0/*",
+                "/usr/include/glib-2.0",
+                "/usr/include/json-glib-1.0",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+                "${workspaceFolder}/sources/apps/sample_apps/deepstream-app",
+                "${workspaceFolder}/sources/apps/apps-common/includes",
+                "${workspaceFolder}/sources/includes",
+                "/usr/include/uuid"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
